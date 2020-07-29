@@ -1,11 +1,17 @@
 {
-    "name": "Get pages source",
+    "name": "OnX Maps EarthLink",
     "version": "1.0",
     "manifest_version": 2,
-    "description": "Get pages source from a popup",
+    "description": "Opens the active OnX Waypoint in Google Earth",
     "browser_action": {
         "default_icon": "world.png",
         "default_popup": "earthLink.html"
     },
-    "permissions": ["tabs", "<all_urls>"]
+    "permissions": ["tabs", "<all_urls>"],
+    "icons": {
+        "16": "world.png",
+        "48": "world.png",
+        "128": "world.png"
+    }
+
 }
