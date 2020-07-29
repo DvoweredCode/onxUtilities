@@ -4,13 +4,20 @@
 <head>
 
     <script src='earthLink.js'></script>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
 
     <style>
         body {
-            width: 500px
+            width: 500px;
+            background-color: #D5D3CE;
+
+        }
+
+        #logo {
+            height: 50px;
+            width: 50px;
         }
 
     </style>
@@ -19,8 +26,11 @@
 <body>
     <div class="container">
         <div class="row">
-            <h3 class="col">If you are seeing this message:</h3>
-            <h5 class="col">Click on an OnX Maps Waypoint to make it "active", then activate the OnX EarthLink Extension</h5>
+            <div class="col-sm-1">
+                <img src="extensionLogo.png" id="logo">
+            </div>
+            <h3 class="col-sm-4">If you are seeing this message:</h3>
+            <h5 class="col-sm-7">Click on an OnX Maps Waypoint to make it "active", then activate the OnX EarthLink Extension</h5>
             <p id="message"></p>
         </div>
     </div>
