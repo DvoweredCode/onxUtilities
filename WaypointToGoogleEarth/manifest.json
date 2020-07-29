@@ -9,9 +9,7 @@
     },
     "permissions": ["tabs", "<all_urls>"],
     "icons": {
-        "16": "world.png",
-        "48": "world.png",
-        "128": "world.png"
+        "128": "extensionLogo.png"
     }
 
 }
