@@ -1,6 +1,6 @@
 {
     "name": "OnX Maps EarthLink",
-    "version": "1.0",
+    "version": "0.0.0.1",
     "manifest_version": 2,
     "description": "Opens the active OnX Waypoint in Google Earth",
     "browser_action": {
