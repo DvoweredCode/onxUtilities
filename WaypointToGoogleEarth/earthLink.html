@@ -10,30 +10,31 @@
 
     <style>
         body {
-            width: 500px;
-            background-color: #D5D3CE;
+            width: 600px;
+            height: 300px;
 
         }
 
-        #logo {
-            height: 50px;
-            width: 50px;
+        #logo {}
+
+        #logoDiv {
+            background-color: #D5D3CE;
         }
 
     </style>
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-1">
-                <img src="extensionLogo.png" id="logo">
-            </div>
-            <h3 class="col-sm-4">If you are seeing this message:</h3>
-            <h5 class="col-sm-7">Click on an OnX Maps Waypoint to make it "active", then activate the OnX EarthLink Extension</h5>
-            <p id="message"></p>
+    <div class="row bg-dark pb-0">
+        <div class="col-sm-4" id="#logoDiv">
+            <img src="extensionLogo.png" id="logo" class="m-3">
+            <p class="m-3 text-light">Make sure to make the waypoint active before you EarthLink to Google Earth! See example ---></p>
+        </div>
+        <div class="col-sm-5 align-middle">
+            <img src="sampleActiveWaypoint.png" class="pt-4 pr-4">
         </div>
     </div>
+    <p id="message"></p>
 </body>
 
 </html>
