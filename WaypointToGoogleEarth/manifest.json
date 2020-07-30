@@ -7,7 +7,7 @@
         "default_icon": "world.png",
         "default_popup": "earthLink.html"
     },
-    "permissions": ["tabs", "<all_urls>"],
+    "permissions": ["activeTab"],
     "icons": {
         "128": "extensionLogo.png"
     }
